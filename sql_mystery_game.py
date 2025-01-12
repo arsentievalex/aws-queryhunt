@@ -321,7 +321,7 @@ if "current_user" not in st.session_state:
     st.session_state.current_user = None
 
 
-st.title("SQL Murder Mystery Game")
+st.title("SQL Murder Mystery Game 🕵️‍♂️")
 
 # get unique user token from headers and add to session state
 get_current_user()
