@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(layout="wide", page_icon="img/favicon.png")
+st.set_page_config(layout="wide", page_icon="https://queryhunt-game-assets.s3.us-east-1.amazonaws.com/favicon.png")
 
 pages = [
     st.Page("home.py", title="Home"),
