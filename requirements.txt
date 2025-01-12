@@ -1,0 +1,10 @@
+sqlglot
+pydantic
+llama-index
+llama-index-core
+streamlit
+sqlparse
+pymysql
+streamlit-ace
+SQLAlchemy
+
