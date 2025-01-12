@@ -11,8 +11,6 @@ import streamlit.components.v1 as components
 from pymysql.err import ProgrammingError
 import re
 
-# wide mode
-st.set_page_config(layout="wide", page_icon="https://queryhunt-game-assets.s3.us-east-1.amazonaws.com/favicon.png")
 
 @st.fragment
 def show_hint(hint_prompt):
