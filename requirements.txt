@@ -1,6 +1,7 @@
 sqlglot
 pydantic
 llama-index
+llama-index-llms-bedrock
 llama-index-core
 streamlit
 sqlparse
