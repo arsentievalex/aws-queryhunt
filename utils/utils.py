@@ -135,7 +135,7 @@ def initiate_llm():
 
 def create_schema_and_tables(schema_name: str):
     """
-    Function to create a schema and tables in TiDB cluster.
+    Function to create a schema and tables in RDS instance.
     :param schema_name: Name of the schema to create
     """
     create_table_victim = f"""
