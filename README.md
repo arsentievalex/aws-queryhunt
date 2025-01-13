@@ -45,7 +45,7 @@ To set up and run QueryHunt locally:
 
 3. **Replace the following secrets with your credentials:**
    ```bash
-   st.secrets["OPENAI_API_KEY"], st.secrets["TIDB_CONNECTION_URL"], st.secrets["TIDB_USER"], st.secrets["TIDB_PASSWORD"]
+   st.secrets["aws_rds_host"], st.secrets["aws_rds_password"], st.secrets["aws_access_key"], st.secrets["aws_secret"]
 
 4. **Run entrypoint app.py:**
    ```bash
