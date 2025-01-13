@@ -191,7 +191,7 @@ def end_game():
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></a>
     """, width=100, height=30)
 
-    # append result to TiDB table
+    # append result to RDS table
     add_to_leaderboard()
 
     # drop schema
