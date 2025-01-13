@@ -39,7 +39,7 @@ def get_connection(database: str = None, autocommit: bool = True) -> Connection:
 
 def run_queries_in_schema(schema_name: str, query_list: list):
     """
-    Function to execute queries within a specific schema in TiDB cluster.
+    Function to execute queries within a specific schema in RDS instance.
     :param schema_name: Name of the schema to use
     :param query_list: List of SQL queries to execute
     """
