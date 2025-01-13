@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit.components.v1 import html
 
-# read text from index.txt
+# read content from index.html
 with open('index.html', 'r') as file:
     html_content = file.read()
 
